@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cambio-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
