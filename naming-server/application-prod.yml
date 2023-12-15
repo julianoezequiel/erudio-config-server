@@ -7,3 +7,7 @@ management:
       exposure:
         include:
         - '*'
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
