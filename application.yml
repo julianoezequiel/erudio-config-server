@@ -10,3 +10,22 @@ management:
 greeting-service:
   greeting: "Hello"
   default-value: "World"
+
+spring:
+  application:
+    name: book-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+spring:
+  application:
+    name: cambio-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
